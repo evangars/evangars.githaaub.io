@@ -495,6 +495,15 @@
 				$("#customRadio10").prop('checked',true);
 				gaming=false;
 				manual();
+			}
+			function bro(){
+				namaku = $(".pengembang").text();
+			    var hex, i;
+
+			    var result = "";
+			    for (i=0; i<namaku.length; i++) {
+			        hex = namaku.charCodeAt(i).toString(16);
+			        result += ("000"+hex).slice(-4);
 				}
 			}
 			function specialEffects(){
@@ -866,31 +875,31 @@
 					txt2=txt;
 				}
 				else if(H<9){
-					txt='Pagi Kamu:)';
+					txt='Good Morning You:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<12){
-					txt='Jan Lupa Bahagia:)';
+					txt='Be Happy Today:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<16){
-					txt='Good Afternoon my dearr:)';
+					txt='Good Afternoon Dear:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<19){
-					txt='Good Afternoon, Take a Rest Yaaaaa:)';
+					txt='Good Afternoon, Take a Rest:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<23){
-					txt='Good Evening My Sweetie:)';
+					txt='Good Evening Sweetie:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
